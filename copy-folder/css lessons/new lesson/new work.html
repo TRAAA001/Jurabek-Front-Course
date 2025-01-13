@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+background-color: black;
+text-align: center;
+    }
+    div{
+    padding: 0  auto;
+    background: url(/copy-folder/img/zero\ two.jpg) center / cover no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.576);
+        margin: 10px;
+        padding: 20px;
+        color: aqua;
+        overflow-y: auto;
+        text-shadow: 0 0 10px #ff008c, 0 0 5px #0000ff;
+}
+img{
+    float: right;
+}
+.h1{
+color: rgba(255, 27, 27, 0.626);
+text-shadow: 2px 2px rgb(255, 0, 230);
+}
+main{
+    overflow-y: scroll;
+width: 400px;
+height: 200px;
+
+}
+.r1{
+float: inline-end;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.scroll-box{
+  width: 300px;
+  height: 300px;
+  overflow: scroll;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  padding: 20px;
+}
+
+
+</style>
+<body>
+    <h1 class="h1">work overflow , float</h1>
+ <div>
+    The CSS float property specifies how an element should float. <br>
+    The CSS clear property specifies what elements can float beside the cleared element and on which side. <br>
+ <br>
+   <h1>The float Property</h1> 
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a containe <br>
+ <br>
+The float property can have one of the following values: <br>
+ <br>
+left - The element floats to the left of its container <img src="/copy-folder/img/zero two.jpg" alt="" width="400px" height="200px"> <br>
+right - The element floats to the right of its container <br>
+none - The element does not float (will be displayed just where it occurs in the text). This is default <br>
+inherit - The element inherits the float value of its parent <br>
+In its simplest use, the float property can be used to wrap text around images. <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="scroll-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facere neque omnis laborum quidem reprehenderit aliquid voluptatibus, asperiores harum officia molestiae vero eius cumque suscipit optio maxime beatae nihil, veritatis quae dolore delectus laudantium. Doloribus officia repellat explicabo fugit? Fugiat nostrum magnam magni veniam, natus animi quisquam eius unde labore.</div>
+    <div class="scroll-box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, aliquam sapiente. Velit, cupiditate nobis enim eius labore sit, minus eos consequuntur similique iure modi, et harum nemo impedit dolorem hic ipsa. Ratione modi corporis laborum facilis ducimus in ex repellat dicta, odit numquam ad est earum impedit molestias consequuntur architecto?</div>
+  </div>
+ </div>
+</body>
+</html>
